@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sticky-note {
+  background-color: #ffeb3b;
+  border: 1px solid #333;
+  margin: 10px;
+  padding: 10px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  user-select: none;
+  transition: z-index 0.2s ease-in;
+}
+
+.title-input {
+  width: 100%;
+  border: none;
+  resize: none;
+  font-size: 20px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.note-content {
+  width: 100%;
+  border: none;
+  resize: none;
+  font-size: 16px;
+  background-color: transparent;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  height: auto;
+}
+
+#add-note-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+
+
